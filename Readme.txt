@@ -3,11 +3,9 @@ https://github.com/Lurimago/Challenge-QA---Luis-Ricardo-Marcelo-Gomez
 
 1. Prerequisitos:
 
-** Aqui describiremos las versiones de las dependencias, packages u otro tecnología que necesito tener configurado en mi maquina local.
-Por ejemplo:
 	- Maquina local con el sistema operativo Windows 10
 	- Visual Studio Code 1.77.3
-	- Postaman
+	- Postman
 	- Cypress v10.3.0
 
 2. Comandos de instalación

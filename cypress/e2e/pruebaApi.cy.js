@@ -1,7 +1,7 @@
 ///<reference types="cypress"/>
 describe('Prueba Api', () => {
 
-    it("Crear nuevo usuaro", () => {
+    it("Debería Crear un nuevo usuaro", () => {
         cy.request({
             url: 'https://petstore.swagger.io/v2/user',
             method: 'POST',
@@ -19,7 +19,7 @@ describe('Prueba Api', () => {
             cy.log(respuesta)
         })
     })
-    it("Traer al usuario creado", () => {
+    it("Debería traer al usuario creado", () => {
         cy.request({
             url: 'https://petstore.swagger.io/v2/user/Luristring1',
             method: 'GET',
@@ -28,7 +28,7 @@ describe('Prueba Api', () => {
         })
     })
 
-    it("Actualizar el usuario", () => {
+    it("Debería actualizar el usuario", () => {
         cy.request({
             url: 'https://petstore.swagger.io/v2/user/Luristring1',
             method: 'PUT',
@@ -46,6 +46,21 @@ describe('Prueba Api', () => {
         cy.log(respuesta)
     })
     })
-
-
+    it("Debería traer al usuario actualizado", () => {
+        cy.request({
+            url: 'https://petstore.swagger.io/v2/user/Luristring2',
+            method: 'GET',
+        }).then((respuesta) => {
+            cy.log(respuesta)
+        })
+    })
+    it("Debería eliminar al usuario creado", () => {
+    cy.request({
+        url: 'https://petstore.swagger.io/v2/user/Luristring2',
+        method: 'DELETE',
+        body: {},
+    }).then((respuesta) => {
+        cy.log(respuesta)
+    })
+      })
 });

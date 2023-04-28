@@ -3,20 +3,11 @@ https://github.com/Lurimago/Challenge-QA---Luis-Ricardo-Marcelo-Gomez
 
 Conclusiones:
 
-1.	Ejercicio de Automatización E2E
-
-Se logró con el challenge, se tuvo problemas con el botón Checkout, 
-solo está actualizando dentro de Cypress, se agregó:
-	.should('have.prop', 'href')
-        .and('include', '/checkout');
-Para comprobarlo.
-
-
-2. 	Ejercicio de APIS :
+Ejercicio de APIS :
 
 Se utilizó postman como software para pruebas de servicios REST.
 Se utilizó Cypress y cy.request para las peticiones automatizadas.
-Se logró hacer todas las peticiones, se tuvo problemas con el método Delete.
+Se logró hacer todas las peticiones.
 
 La documentación se encuentra en:
 https://documenter.getpostman.com/view/21507307/2s93Y6sz6B
