@@ -1,5 +1,5 @@
 Challenge en el repositorio Github público: 
-https://github.com/Lurimago/Challenge-QA---Luis-Ricardo-Marcelo-Gomez
+https://github.com/Lurimago/EjerciciodeAPIS-ChallengeQA
 
 1. Prerequisitos:
 
@@ -16,26 +16,26 @@ https://github.com/Lurimago/Challenge-QA---Luis-Ricardo-Marcelo-Gomez
   	Instalar NodeJS
 
 
-	2 Instalar Cypress
+3 Instalar Cypress
 
 	Iniciar un proyecto de NodeJs npm init -y
   	Instalar Cypress npm install cypress@10.3.0 --save-dev
 
-	3 Instalar Visual Studio code
+4 Instalar Visual Studio code
   	Abrir la carpeta donde instalamos Cypress
   	Abrir la terminal y ejecutar Cypress npx cypress open
 
-	4 Configurar Cypress
+5 Configurar Cypress
   	Elegir e2e testing
   	Click continue
   	Elegir el navegador y empezar el testing
   	Ejecutar el test que deseamos para verificar que funcione
   	Cerrar la interfaz de cypress
 
-3. Instrucciones para ejecutar los test
+6. Instrucciones para ejecutar los test
 	Ejecutar en la terminal:  npm test, que abrirá: npx cypress open, se abrirá Cypress y elegir el test a ejecutar
 
-4. Información adicional
+7. Información adicional
 	La documentación de postman:
 	https://documenter.getpostman.com/view/21507307/2s93Y6sz6B
 
